@@ -49,18 +49,18 @@ class _JyankenPageState extends State<JyankenPage> {
     computerHand = randomNumberToHand2(randomNumber);
   }
 
-  String randomNumberToHand(int randomNumber) {
-    switch (randomNumber) {
-      case 0:
-        return rock;
-      case 1:
-        return scissors;
-      case 2:
-        return paper;
-      default:
-        return rock;
-    }
-  }
+  // String randomNumberToHand(int randomNumber) {
+  //   switch (randomNumber) {
+  //     case 0:
+  //       return rock;
+  //     case 1:
+  //       return scissors;
+  //     case 2:
+  //       return paper;
+  //     default:
+  //       return rock;
+  //   }
+  // }
 
   String randomNumberToHand2(int randomNumber) {
     final hands = [rock, scissors, paper];
